@@ -1,0 +1,39 @@
+
+li{
+    background-color:rgb(255, 255, 255);
+   
+}
+
+ul{
+    list-style: none;
+    margin-right: 38px;
+    display: grid;
+    grid-template-columns:  6fr 1fr 1fr ;
+    border: 5px;
+
+}
+.delete{
+    background-color:rgb(197, 190, 190);
+    border-color:rgb(196, 193, 193);
+    position: relative;
+    text-decoration: none;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
+.delete:hover{
+    color:rgb(255, 17, 0);
+    cursor: pointer;
+}
+.done:hover{
+    color:rgb(23, 55, 196);
+    cursor: pointer;
+
+}
+.done{
+    background-color:rgb(197, 190, 190);
+    border-color:rgb(196, 193, 193);
+    position: relative;
+    text-decoration: none;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
